@@ -22,7 +22,7 @@ If you find our work useful in your research, please consider citing:
 
 &nbsp;
 ## Usage
-### Requirement
+### Requirements
 - Python 3.7
 - PyTorch 1.2
 
