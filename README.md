@@ -8,7 +8,7 @@ This repository contains the PyTorch implementation for paper **SegGroup: Seg-Le
 
 **Authors:** An Tao, Yueqi Duan, Yi Wei, Jiwen Lu, Jie Zhou
 
-[[arxiv]]()
+[[arxiv]](https://arxiv.org/submit/3522539/view)
 
 If you find our work useful in your research, please consider citing:
 ```
