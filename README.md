@@ -15,7 +15,7 @@ If you find our work useful in your research, please consider citing:
 @article{tao2020seggroup,
   title={{SegGroup}: Seg-Level Supervision for {3D} Instance and Semantic Segmentation},
   author={Tao, An and Duan, Yueqi and Wei, Yi and Lu, Jiwen and Zhou, Jie},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2012.10217},
   year={2020}
 }
 ```
