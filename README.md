@@ -20,7 +20,7 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
-Our annotation tool is in [AnTao97/SegGroup.annotator](https://github.com/AnTao97/SegGroup.annotator).
+Our annotation tool is in [antao97/SegGroup.annotator](https://github.com/AnTao97/SegGroup.annotator).
 
 &nbsp;
 ## Usage
