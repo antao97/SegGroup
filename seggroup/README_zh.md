@@ -48,7 +48,13 @@ python prepare_data.py --data_root <scannet path>
 
 #### 1. 手工标注（Manual Labeling）
 
-我们在`dataset/scannet/manual_label/`路径下提供了在ScanNet数据集训练集上手工标注的结果，标注过程使用了我们自行设计的标注工具，具体代码在[antao97/SegGroup.annotator](https://github.com/antao97/SegGroup.annotator.git)。手工标注结果的文件名称`<scene name>.json`对应其在ScanNet数据集的场景名称，其内容的格式如下：
+我们在`dataset/scannet/manual_label.zip`压缩包中提供了在ScanNet数据集训练集上手工标注的结果，你需要解压它。
+
+```
+unzip manual_label.zip
+```
+
+标注过程使用了我们自行设计的标注工具，具体代码在[antao97/SegGroup.annotator](https://github.com/antao97/SegGroup.annotator.git)。手工标注结果的文件名称`<scene name>.json`对应其在ScanNet数据集的场景名称，其内容的格式如下：
 
 ```
 {

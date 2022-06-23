@@ -48,7 +48,13 @@ There are four types `[manual, maxseg, mainseg, rand]` to generate seg-level lab
 
 #### 1. Manual labeling
 
-We provide the manual labeling results in `dataset/scannet/manual_label/` for the training set of the ScanNet dataset. The labeling process is conducted by using our designed annotation tool in [antao97/SegGroup.annotator](https://github.com/antao97/SegGroup.annotator.git). The file name `<scene name>.json` corresponds to its scene name in the ScanNet dataset. The format of its content is as follows:
+We provide the manual labeling results in `dataset/scannet/manual_label.zip` for the training set of the ScanNet dataset. You need to unzip it.
+
+```
+unzip manual_label.zip
+```
+
+The labeling process is conducted by using our designed annotation tool in [antao97/SegGroup.annotator](https://github.com/antao97/SegGroup.annotator.git). The file name `<scene name>.json` corresponds to its scene name in the ScanNet dataset. The format of its content is as follows:
 
 ```
 {
