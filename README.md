@@ -59,4 +59,4 @@ We show some questions and answers in [QA.md](QA.md).
 
 - [Difference between SegGroup and OTOC?](https://github.com/antao97/SegGroup/blob/main/QA.md#difference-between-seggroup-and-otoc)
 - [Details on over-segmentation?](https://github.com/antao97/SegGroup/blob/main/QA.md#details-on-over-segmentation)
-- [How to determin the annotation rule?](https://github.com/antao97/SegGroup/blob/main/QA.md#how-to-determin-the-annotation-rule)
+- [How to determine the annotation rule?](https://github.com/antao97/SegGroup/blob/main/QA.md#how-to-determine-the-annotation-rule)

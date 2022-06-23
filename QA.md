@@ -54,7 +54,7 @@ As segments are very small in this process, in most cases, each segment only con
 
 &nbsp;
 
-### How to determin the annotation rule?
+### How to determine the annotation rule?
 
 **Q:** For Seg-Level annotation, the authors ask the annotators to click on the point on the most representative segment of the instance, such as the largest segment of an instance or the most central segment. How do the authors determine the rule to identify the most representative segment? Is there some literature or statistical result to support this annotation rule? Please clarify it.
 
