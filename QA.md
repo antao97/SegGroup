@@ -19,7 +19,6 @@ There are two advantages of our method. The first advantage is that our method c
 ##### 1. OTOC is only designed for semantic segmentation, which cannot be directly employed to the instance segmentation task.
 
 This limitation is determined by its objective function (energy function) for pseudo label generation. OTOC [1] minimizes the below energy function to optimize the pseudo labels:
-
 $$ E(Y|V) = \sum_{j}\varphi_{u}(y_j|V,\Theta) + \sum_{j<j'}\varphi_{p}(y_j,y_{j'}|V, \mathcal{R}, \Theta) $$
 where $\Theta$ is the semantic segmentation model, $\mathcal{R}$ is the relation network, and $y_j\in\{1,\dots,K\}$ represents the semantic label for the $j$-th segment. The semantic class number is $K$. The unary term $\varphi_{u}(y_j|V,\Theta)$ represents the semantic prediction on the $j$-th segment $v_j\in V$ pooled from the point-level semantic predictions of the semantic segmentation model. The pairwise term $\varphi_{p}(y_j,y_{j'})$ represents the semantic similarity between the $j$-th and $j'$-th segments. In the energy function, both the unary term and the pairwise term only consider semantic labels. The energy function is built upon the point-level semantic prediction outputs of the semantic segmentation model. The final semantic pseudo labels are obtained by minimizing the energy function.
   
