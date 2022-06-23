@@ -16,7 +16,7 @@ According to the reported numbers of OTOC and SegGroup, I expect that the perfor
 
 There are two advantages of our method. The first advantage is that our method can be generally applied to semantic and instance segmentation tasks. The second advantage is that our method uses fewer network parameters. We include the comparison in our manuscript on pages 10-11.
 
-##### 1. OTOC is only designed for semantic segmentation, which cannot be directly employed to the instance segmentation task.
+#### 1. OTOC is only designed for semantic segmentation, which cannot be directly employed to the instance segmentation task.
 
 This limitation is determined by its objective function (energy function) for pseudo label generation. OTOC [1] minimizes the below energy function to optimize the pseudo labels:
 $$ E(Y|V) = \sum_{i}\varphi_{u}(y_i|V,\Theta) + \sum_{i< j}\varphi_{p}(y_i,y_{j}|V, \mathcal{R}, \Theta) $$
@@ -39,7 +39,7 @@ Therefore, the energy function can only be adopted for semantic labels.
   
 Instead, our method can be generally applied to semantic and instance segmentation tasks. Although we also use the graph structure which is built on over-segmentation results to propagate labels, we design a clustering algorithm to gradually spread semantic and instance labels around each labeled segment. Because the labeled segments contain instance IDs, instance information can also be propagated through clustering.
   
-##### 2. The design of our method has the advantage of fewer computational costs.
+#### 2. The design of our method has the advantage of fewer computational costs.
 
 The parameter number of OTOC is very large, since it adopts two SparseConvNet [2] networks separately for the semantic segmentation model and the relation network. The total parameter number of OTOC is $30.11{\rm M} + 30.11{\rm M} = 60.21{\rm M}$. In our method, the network for the pseudo label generation is light-weight, and the network parameter number is $0.15{\rm M}$. Combining with the semantic segmentation model KPConv [3] and Minkowski [4], the total network parameter number is $0.15{\rm M} + 14.97{\rm M} = 15.12{\rm M}$ and $0.15{\rm M} + 37.85{\rm M} = 38.00{\rm M}$. When we remove the semantic segmentation model and remain the backbone for pseudo label generation, we find the parameter numbers are $30.11{\rm M}$ v.s. $0.15{\rm M}$ for OTOC and our SegGroup. Therefore, our method uses much fewer network parameters than OTOC.
 
