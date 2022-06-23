@@ -20,11 +20,7 @@ There are two advantages of our method. The first advantage is that our method c
 
 This limitation is determined by its objective function (energy function) for pseudo label generation. OTOC [1] minimizes the below energy function to optimize the pseudo labels:
 
-$$
-\begin{equation}
-  E(Y|V) = \sum_{j}\varphi_{u}(y_j|V,\Theta) + \sum_{j<j'}\varphi_{p}(y_j,y_{j'}|V, \mathcal{R}, \Theta)
-\end{equation}
-$$
+$$ E(Y|V) = \sum_{j}\varphi_{u}(y_j|V,\Theta) + \sum_{j<j'}\varphi_{p}(y_j,y_{j'}|V, \mathcal{R}, \Theta) $$
 where $\Theta$ is the semantic segmentation model, $\mathcal{R}$ is the relation network, and $y_j\in\{1,\dots,K\}$ represents the semantic label for the $j$-th segment. The semantic class number is $K$. The unary term $\varphi_{u}(y_j|V,\Theta)$ represents the semantic prediction on the $j$-th segment $v_j\in V$ pooled from the point-level semantic predictions of the semantic segmentation model. The pairwise term $\varphi_{p}(y_j,y_{j'})$ represents the semantic similarity between the $j$-th and $j'$-th segments. In the energy function, both the unary term and the pairwise term only consider semantic labels. The energy function is built upon the point-level semantic prediction outputs of the semantic segmentation model. The final semantic pseudo labels are obtained by minimizing the energy function.
   
 Unlike the semantic labels with a predefined class number and class-specific information, the instance IDs are unordered and the number of the IDs is unknown before label generation. For point cloud instance segmentation, the instance labels are either aggregated from point-level semantic predictions or generated from the 3D bounding box detection results. For each predicted instance, the instance segmentation model cannot output the instance prediction scores for all instance IDs in the scene.
