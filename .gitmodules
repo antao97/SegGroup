@@ -1,0 +1,3 @@
+[submodule "pointgroup/lib/spconv"]
+	path = pointgroup/lib/spconv
+	url = https://github.com/llijiang/spconv
