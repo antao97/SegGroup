@@ -57,6 +57,6 @@
 
 在[QA.md](QA.md)我们展示了一些有意义的问答。
 
-- [SegGroup与OTOC的区别？]()
-- [过分割的细节？]()
-- [如何确定标注规则？]()
+- [SegGroup与OTOC的区别？](https://github.com/antao97/SegGroup/blob/main/QA.md#difference-between-seggroup-and-otoc)
+- [过分割的细节？](https://github.com/antao97/SegGroup/blob/main/QA.md#details-on-over-segmentation)
+- [如何确定标注规则？](https://github.com/antao97/SegGroup/blob/main/QA.md#how-to-determin-the-annotation-rule)

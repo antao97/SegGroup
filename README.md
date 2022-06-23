@@ -57,6 +57,6 @@ In our work, our pseudo labels can be used in both instance segmentation and sem
 
 We show some questions and answers in [QA.md](QA.md).
 
-- [Difference between SegGroup and OTOC?]()
-- [Details on over-segmentation?]()
-- [How to determin the annotation rule?]()
+- [Difference between SegGroup and OTOC?](https://github.com/antao97/SegGroup/blob/main/QA.md#difference-between-seggroup-and-otoc)
+- [Details on over-segmentation?](https://github.com/antao97/SegGroup/blob/main/QA.md#details-on-over-segmentation)
+- [How to determin the annotation rule?](https://github.com/antao97/SegGroup/blob/main/QA.md#how-to-determin-the-annotation-rule)
