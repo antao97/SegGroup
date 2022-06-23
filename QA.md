@@ -1,6 +1,6 @@
 # Question & Answer
 
-### Comparison with OTOC [1]
+### Difference between SegGroup and OTOC?
 
 **Q:** There is also some exploration about the weakly-supervised 3D semantic segmentation via one click on one thing, for example, OTOC [1].
   
@@ -45,7 +45,7 @@ The parameter number of OTOC is very large, since it adopts two SparseConvNet [2
 
 &nbsp;
 
-### Over-segmentation
+### Details on over-segmentation?
 
 **Q:** The whole process relies on the preliminary over-segmentation. The method used and the corresponding parameters have to be detailed. What happens if a segment overlaps two different ground-truth objects? I assume that the majority label is kept, but it is not stated in the paper. Does this event occur? If not, it can be said. If yes, the statistics would be interesting to present.
 
@@ -54,7 +54,7 @@ As segments are very small in this process, in most cases, each segment only con
 
 &nbsp;
 
-### Annotation Rule
+### How to determin the annotation rule?
 
 **Q:** For Seg-Level annotation, the authors ask the annotators to click on the point on the most representative segment of the instance, such as the largest segment of an instance or the most central segment. How do the authors determine the rule to identify the most representative segment? Is there some literature or statistical result to support this annotation rule? Please clarify it.
 
