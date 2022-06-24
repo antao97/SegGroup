@@ -53,9 +53,7 @@ In our work, our pseudo labels can be used in both instance segmentation and sem
 - [minkowski/](minkowski/)
 
 &nbsp;
-## Frequently Asked Questions
-
-We show some some questions in [FAQ.md](FAQ.md).
+## Questions you may have
 
 - [Difference between SegGroup and OTOC?](https://github.com/antao97/SegGroup/blob/main/FAQ.md#difference-between-seggroup-and-otoc)
 - [Details on over-segmentation?](https://github.com/antao97/SegGroup/blob/main/FAQ.md#details-on-over-segmentation)

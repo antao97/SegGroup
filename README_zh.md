@@ -55,8 +55,6 @@
 &nbsp;
 ## 常见问题
 
-在[FAQ.md](FAQ.md)我们展示了一些问题。
-
 - [SegGroup与OTOC的区别？](https://github.com/antao97/SegGroup/blob/main/FAQ.md#difference-between-seggroup-and-otoc)
 - [过分割的细节？](https://github.com/antao97/SegGroup/blob/main/FAQ.md#details-on-over-segmentation)
 - [如何确定标注规则？](https://github.com/antao97/SegGroup/blob/main/FAQ.md#how-to-determin-the-annotation-rule)
