@@ -1,4 +1,4 @@
-# Question & Answer
+# Frequently Asked Questions
 
 ### Difference between SegGroup and OTOC?
 

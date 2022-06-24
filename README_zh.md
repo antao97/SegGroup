@@ -10,7 +10,7 @@
 
 **作者：** 陶安，段岳圻，韦祎，鲁继文，周杰
 
-[[论文]](https://arxiv.org/abs/2012.10217) [[问答]](QA.md)
+[[论文]](https://arxiv.org/abs/2012.10217) [[常见问题]](FAQ.md)
 
 如果您发现我们的工作对您的研究有帮助，您可以考虑引用我们的论文。
 ```
@@ -53,10 +53,10 @@
 - [minkowski/](minkowski/)
 
 &nbsp;
-## 问答
+## 常见问题
 
-在[QA.md](QA.md)我们展示了一些有意义的问答。
+在[FAQ.md](FAQ.md)我们展示了一些问题。
 
-- [SegGroup与OTOC的区别？](https://github.com/antao97/SegGroup/blob/main/QA.md#difference-between-seggroup-and-otoc)
-- [过分割的细节？](https://github.com/antao97/SegGroup/blob/main/QA.md#details-on-over-segmentation)
-- [如何确定标注规则？](https://github.com/antao97/SegGroup/blob/main/QA.md#how-to-determin-the-annotation-rule)
+- [SegGroup与OTOC的区别？](https://github.com/antao97/SegGroup/blob/main/FAQ.md#difference-between-seggroup-and-otoc)
+- [过分割的细节？](https://github.com/antao97/SegGroup/blob/main/FAQ.md#details-on-over-segmentation)
+- [如何确定标注规则？](https://github.com/antao97/SegGroup/blob/main/FAQ.md#how-to-determin-the-annotation-rule)

@@ -10,7 +10,7 @@ This repository contains the PyTorch implementation for paper **SegGroup: Seg-Le
 
 **Authors:** An Tao, Yueqi Duan, Yi Wei, Jiwen Lu, Jie Zhou
 
-[[arxiv]](https://arxiv.org/abs/2012.10217) [[Q&A]](QA.md)
+[[arxiv]](https://arxiv.org/abs/2012.10217) [[FAQ]](FAQ.md)
 
 If you find our work useful in your research, please consider citing:
 ```
@@ -53,10 +53,10 @@ In our work, our pseudo labels can be used in both instance segmentation and sem
 - [minkowski/](minkowski/)
 
 &nbsp;
-## Question & Answer
+## Frequently Asked Questions
 
-We show some questions and answers in [QA.md](QA.md).
+We show some some questions in [FAQ.md](FAQ.md).
 
-- [Difference between SegGroup and OTOC?](https://github.com/antao97/SegGroup/blob/main/QA.md#difference-between-seggroup-and-otoc)
-- [Details on over-segmentation?](https://github.com/antao97/SegGroup/blob/main/QA.md#details-on-over-segmentation)
-- [How to determine the annotation rule?](https://github.com/antao97/SegGroup/blob/main/QA.md#how-to-determine-the-annotation-rule)
+- [Difference between SegGroup and OTOC?](https://github.com/antao97/SegGroup/blob/main/FAQ.md#difference-between-seggroup-and-otoc)
+- [Details on over-segmentation?](https://github.com/antao97/SegGroup/blob/main/FAQ.md#details-on-over-segmentation)
+- [How to determine the annotation rule?](https://github.com/antao97/SegGroup/blob/main/FAQ.md#how-to-determine-the-annotation-rule)
