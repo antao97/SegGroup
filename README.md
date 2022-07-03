@@ -10,15 +10,16 @@ This repository contains the PyTorch implementation for paper **SegGroup: Seg-Le
 
 **Authors:** An Tao, Yueqi Duan, Yi Wei, Jiwen Lu, Jie Zhou
 
-[[arxiv]](https://arxiv.org/abs/2012.10217) [[FAQ]](FAQ.md)
+[[arxiv]](https://arxiv.org/abs/2012.10217) [[Zhihu]](https://zhuanlan.zhihu.com/p/536482202) [[FAQ]](FAQ.md)
 
 If you find our work useful in your research, please consider citing:
 ```
-@article{tao2020seggroup,
+@article{tao2022seggroup,
   title={{SegGroup}: Seg-Level Supervision for {3D} Instance and Semantic Segmentation},
   author={Tao, An and Duan, Yueqi and Wei, Yi and Lu, Jiwen and Zhou, Jie},
-  journal={arXiv preprint arXiv:2012.10217},
-  year={2020}
+  journal={IEEE Transactions on Image Processing},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
@@ -26,7 +27,8 @@ Our annotation tool is in [antao97/SegGroup.annotator](https://github.com/AnTao9
 
 **Updates:** 
 
-- [2022/6/23] We update our paper in arXiv.
+- [2022/07/01] This work is accepted by IEEE Transactions on Image Processing!
+- [2022/06/23] We update our paper in arXiv.
 
 &nbsp;
 ## Usage

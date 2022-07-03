@@ -37,7 +37,7 @@ Use the following command to train Minkowski with ground-truth labels on the tra
 
 ```
 export BATCH_SIZE=8;
-./scripts/train_scannet.sh 1 \
+./scripts/train_scannet.sh <gpu id> \
         -default \
         "--scannet_path SCANNET_OUT_PATH/train"
 ```
@@ -46,10 +46,12 @@ Use the following command to train Minkowski with pseudo labels on the training 
 
 ```
 export BATCH_SIZE=8;
-./scripts/train_scannet.sh 1 \
+./scripts/train_scannet.sh <gpu id> \
         -default \
         "--scannet_path SCANNET_OUT_PATH2"
 ```
+
+You can only use one GPU ID `<gpu id>`. We use one 32G Tesla V100 GPU in our experiment.
 
 &nbsp;
 

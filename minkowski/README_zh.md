@@ -37,7 +37,7 @@ python -m lib.datasets.preprocessing.scannet2
 
 ```
 export BATCH_SIZE=8;
-./scripts/train_scannet.sh 1 \
+./scripts/train_scannet.sh <gpu id> \
         -default \
         "--scannet_path SCANNET_OUT_PATH/train"
 ```
@@ -46,10 +46,12 @@ export BATCH_SIZE=8;
 
 ```
 export BATCH_SIZE=8;
-./scripts/train_scannet.sh 1 \
+./scripts/train_scannet.sh <gpu id> \
         -default \
         "--scannet_path SCANNET_OUT_PATH2"
 ```
+
+你只能使用一个显卡ID`<gpu id>`，在我们的实验中我们使用一张32G的Tesla V100显卡。
 
 &nbsp;
 

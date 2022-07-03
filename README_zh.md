@@ -10,15 +10,16 @@
 
 **作者：** 陶安，段岳圻，韦祎，鲁继文，周杰
 
-[[论文]](https://arxiv.org/abs/2012.10217) [[常见问题]](FAQ.md)
+[[论文]](https://arxiv.org/abs/2012.10217) [[知乎专栏]](https://zhuanlan.zhihu.com/p/536482202) [[常见问题]](FAQ.md)
 
 如果您发现我们的工作对您的研究有帮助，您可以考虑引用我们的论文。
 ```
-@article{tao2020seggroup,
+@article{tao2022seggroup,
   title={{SegGroup}: Seg-Level Supervision for {3D} Instance and Semantic Segmentation},
   author={Tao, An and Duan, Yueqi and Wei, Yi and Lu, Jiwen and Zhou, Jie},
-  journal={arXiv preprint arXiv:2012.10217},
-  year={2020}
+  journal={IEEE Transactions on Image Processing},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
@@ -26,7 +27,8 @@
 
 **更新：** 
 
-- [2022/6/23] 我们在arXiv更新了文章。
+- [2022/07/01] 这份工作被IEEE Transactions on Image Processing接收了！
+- [2022/06/23] 我们在arXiv更新了文章。
 
 &nbsp;
 ## 使用说明

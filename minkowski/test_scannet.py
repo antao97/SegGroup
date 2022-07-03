@@ -1,5 +1,3 @@
-# TODO: this file can reproduce 72.22% mIoU on ScanNetV2 val set
-
 import os
 import argparse
 import numpy as np
@@ -12,15 +10,13 @@ import utils
 from models.res16unet import Res16UNet34C
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--weights', type=str,
-                    default='/data3/antao/Documents/SpatioTemporalSegmentation/pretrained/'
-                            'MinkUNet34C-train-conv1-5.pth')
+parser.add_argument('--weights', type=str)
 parser.add_argument('--data_path', type=str,
                     default='/data3/antao/Documents/Datasets/'
                             'ScanNet_processed/train')
 parser.add_argument('--bn_momentum', type=float, default=0.05)
 parser.add_argument('--voxel_size', type=float, default=0.02)
-parser.add_argument('--conv1_kernel_size', type=int, default=5)
+parser.add_argument('--conv1_kernel_size', type=int, default=3)
 parser.add_argument('--save_path', type=str, default=None)
 parser.add_argument('--split', type=str, default='val', choices=['train', 'val', 'test'])
 
