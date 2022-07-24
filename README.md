@@ -19,6 +19,8 @@ If you find our work useful in your research, please consider citing:
   author={Tao, An and Duan, Yueqi and Wei, Yi and Lu, Jiwen and Zhou, Jie},
   journal={IEEE Transactions on Image Processing},
   year={2022},
+  volume={31},
+  pages={4952-4965},
   publisher={IEEE}
 }
 ```
