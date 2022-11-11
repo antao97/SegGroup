@@ -14,6 +14,8 @@ We recommend using [Anaconda](https://www.anaconda.com/) to install Minkowski En
 
 Here we provide an installation example in this [link](INSTALL.md).
 
+&nbsp;
+
 ## Dataset
 
 Use the following command to preprocess all raw point clouds with ground-truth labels. You need to set the path `SCANNET_RAW_PATH` and `SCANNET_OUT_PATH` in lines 9 and 10 of `lib/datasets/preprocessing/scannet.py`.

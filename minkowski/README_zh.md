@@ -14,6 +14,8 @@
 
 在[这里](INSTALL_zh.md)我们提供了一份安装示例。
 
+&nbsp;
+
 ## 数据集
 
 使用下面的命令预处理所有原始点云及其真实标签（Ground-truth Label），你需要在`lib/datasets/preprocessing/scannet.py`文件的第9行和第10行对`SCANNET_RAW_PATH`和`SCANNET_OUT_PATH`设置好路径。
