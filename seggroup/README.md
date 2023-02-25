@@ -133,7 +133,7 @@ You can change the training process by following arguments.
 - `--resume` Resume training from the last checkpoint of `<your exp name>`. Default is `False`.
 - `--epochs <your number>` Number of the episode to train. Default is 6.
 
-We provide our trained models in [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/e439a45edbf84851a8c8/) or [BaiduDisk](https://pan.baidu.com/s/1FMji6aT_vpIIC0cHsRUfAw) (Password: 6xn8). This model is trained with manually labeled seg-level labels.
+We provide our trained models in [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/e439a45edbf84851a8c8/) or [BaiduDisk](https://pan.baidu.com/s/1FMji6aT_vpIIC0cHsRUfAw) (Password: 6xn8). This model is trained with manually labeled seg-level labels. We use eight 2080ti GPU cards to train the model with batch size 8. Each card individually processes one scene.
 
 &nbsp;
 

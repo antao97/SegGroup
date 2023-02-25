@@ -133,7 +133,7 @@ python train.py --label_style <label style>
 - `--resume` 从使实验`<your exp name>`中恢复最后一个检查点（Checkpoint），默认是`False`。
 - `--epochs <your number>` 训练周期数量，默认是6。
 
-你可以在[清华云盘](https://cloud.tsinghua.edu.cn/f/e439a45edbf84851a8c8/)或者[百度网盘](https://pan.baidu.com/s/1FMji6aT_vpIIC0cHsRUfAw)（密码：6xn8）下载我们训练好的模型，这个模型在训练中使用了手工标注的块级标签（Manually Labeled Seg-level Label）。
+你可以在[清华云盘](https://cloud.tsinghua.edu.cn/f/e439a45edbf84851a8c8/)或者[百度网盘](https://pan.baidu.com/s/1FMji6aT_vpIIC0cHsRUfAw)（密码：6xn8）下载我们训练好的模型，这个模型在训练中使用了手工标注的块级标签（Manually Labeled Seg-level Label）。我们使用8张2080ti GPU卡训练模型，batch size是8，即每一张GPU卡独立地处理一个点云场景。
 
 &nbsp;
 
